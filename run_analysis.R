@@ -73,8 +73,8 @@ step3 <- cbind(step2, complete_label, complete_subject)
 ## Create a vector of current names. Use gsub function to make it more descriptive.
 current_names <- names(step3)
 
-revised_names <- gsub("tBody", "Time Body ", current_names)
-revised_names <- gsub("tGravity", "Time Gravity ", revised_names)
+revised_names <- gsub("tBody", "Time Domain Signals Body ", current_names)
+revised_names <- gsub("tGravity", "Time Domain Signals Gravity ", revised_names)
 revised_names <- gsub("fBody", "Frequency Domain Signals Body ", revised_names)
 revised_names <- gsub("Acc", "Accelerometer ", revised_names)
 revised_names <- gsub("Gyro", "Gyroscope ", revised_names)
