@@ -20,3 +20,4 @@ The R script to perform the analysis, i.e. run_analysis.R, does the following.
 4. Using the function gsub to replace shortforms in variable names with a more descriptive ones. E.g. "t" replaced by "Time", "Acc" replaced by Accelerometer" etc.
 5. Calculate the mean of all variables by Subject and Activity using the function aggregate.
 
+Run the R script ONLY AFTER the working directory is set.
